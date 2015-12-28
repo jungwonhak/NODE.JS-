@@ -1,4 +1,4 @@
-#Node.js Programming Example
+#Node.js Programming
 
 `모던 웹을 위한 Node.js 프로그래밍『한빛미디어, 2012』`에 사용된 예제입니다.
 그냥 위에 zip 파일 눌러서 다운 받으면 됩니다.
