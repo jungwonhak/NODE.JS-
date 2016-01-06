@@ -26,6 +26,18 @@ var connection = mysql.createConnection({
 })
 connection.connect()
 ```
+
+제품 스키마 
+CREATE TABLE `node`.`products` (
+ `id` INT( 100 ) NOT NULL AUTO_INCREMENT COMMENT '번호',
+`name` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '제품명',
+`modelnumber` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '모델번호',
+`series` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '시리즈',
+PRIMARY KEY ( `id` ) 
+) ENGINE = MYISAM CHARACTER SET utf8 COLLATE utf8_general_ci COMMENT = '상품';
+
+
+
 자세한 내용은 공식 모듈 페이지 [node-mysql](https://github.com/felixge/node-mysql)를 참고하세요.
 
 #버그
